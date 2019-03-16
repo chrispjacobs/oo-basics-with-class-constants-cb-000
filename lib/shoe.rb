@@ -13,7 +13,7 @@ class Shoe
       end
     end
     if test_thing == "success"
-      BRAND << @brand
+      Shoe::BRANDS << @brand
     end
   end
 
