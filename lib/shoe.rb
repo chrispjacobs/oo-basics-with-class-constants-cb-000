@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     test_thing = "success"
-    BRANDS.each do |brand|
+    Shoe::BRANDS.each do |brand|
       if brand == @brand
         test_thing = "failure"
       end
